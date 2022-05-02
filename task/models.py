@@ -7,9 +7,9 @@ class Task(models.Model):
     """
         represent Task table for tasks in todo app
     """
-
+    
     class Meta:
-        verbose_name = 'کار ها'
+        verbose_name = 'کار ها' # verbose name of model in admin panel
 
     # title of task
     title = models.CharField(max_length=200)
